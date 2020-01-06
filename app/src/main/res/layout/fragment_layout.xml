@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/darkBlue">
+<RelativeLayout
+    android:id="@+id/relativity"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#000000">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=""
+        android:textSize="50sp"
+
+        android:textColor="#FFE81F"
+
+
+        android:layout_centerHorizontal="true"
+
+        android:fontFamily="@font/starjhol"
+        />
+
+    <TextView
+        android:id="@+id/opening_crawl_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="20dp"
+        android:text="OPENING CRAWL"
+
+
+        android:fontFamily="@font/sf_distant_galaxy"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+         />
+
+    <TextView
+        android:id="@+id/opening_crawl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/opening_crawl_title"
+        android:textSize="25dp"
+        android:textColor="#FFE81F"
+        android:text=""
+        android:textStyle="italic"
+        />
+    <TextView
+        android:id="@+id/director_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/opening_crawl"
+        android:text="DIRECTOR"
+        android:fontFamily="@font/sf_distant_galaxy"
+
+        android:textSize="30sp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:id="@+id/director"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/director_title"
+        android:text=""
+
+        android:textStyle="italic"
+        android:textColor="#FFE81F"
+        android:textSize="25dp"
+        />
+    <TextView
+        android:id="@+id/producer_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/director"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/sf_distant_galaxy"
+        android:text="PRODUCER"
+        android:textSize="30sp"
+
+        android:textColor="#ffffff"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/producer_title"
+        android:id="@+id/producer"
+        android:textSize="25dp"
+        android:text=""
+        android:textColor="#FFE81F"
+        android:textStyle="italic"
+        />
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/producer"
+        android:id="@+id/release_date_title"
+        android:text="RELEASE DATE"
+        android:fontFamily="@font/sf_distant_galaxy"
+        android:textSize="30sp"
+
+        android:textColor="#ffffff"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_below="@+id/release_date_title"
+        android:id="@+id/release_date"
+        android:textSize="25dp"
+        android:textColor="#FFE81F"
+        android:textStyle="italic"/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/release_date"
+        android:id="@+id/characters"
+        android:text="CHARACTERS"
+        android:fontFamily="@font/sf_distant_galaxy"
+        android:textSize="30sp"
+
+        android:textColor="#ffffff"
+        >
+
+
+
+
+    </TextView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_below="@id/characters"/>
+
+
+
+
+
+
+
+
+</RelativeLayout>
+
+</ScrollView>
+
+
+
+
+
+
+
+
